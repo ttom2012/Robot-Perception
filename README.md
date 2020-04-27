@@ -6,7 +6,7 @@
 
 ### 1. Calibrate raw data
 	Run the file: calibrateddata.m
-    ### The parameter used in calibrateddata is calculated by file: calibratedpara.m
+        The parameter used in calibrateddata is calculated by file: calibratedpara.m
 
 
 ### 2. Compare three fusion algorithms
@@ -33,10 +33,12 @@
      		our_data11=filename
 ### 6. Dependencies
 
-	The EKF algorithm is based on the paper:Sabatelli, Simone, et al. "A double-stage Kalman filter for orientation tracking with an integrated processor in 9-D IMU." IEEE Transactions on Instrumentation and Measurement 62.3 (2012): 590-598
+	The EKF algorithm is based on the paper:Sabatelli, Simone, et al. "A double-stage Kalman filter for orientation tracking with an 	integrated processor in 9-D IMU." IEEE Transactions on Instrumentation and Measurement 62.3 (2012): 590-598
 	
-	The Mahony algorithm is inspired by: Mahony, Robert, Tarek Hamel, and Jean-Michel Pflimlin. "Nonlinear complementary filters on the special orthogonal group." IEEE Transactions on automatic control 53.5 (2008): 1203-1218.
-	The calibration process is refer the paper: Tedaldi, David, Alberto Pretto, and Emanuele Menegatti. "A robust and easy to implement method for IMU calibration without external equipments." 2014 IEEE International Conference on Robotics and Automation (ICRA). IEEE, 2014.
-	Compariosn process refer the blog: Shike Shen: 9 Axis IMU Calibration [https://blog.csdn.net/shenshikexmu/article/details/80013444]
+	The Mahony algorithm is inspired by: Mahony, Robert, Tarek Hamel, and Jean-Michel Pflimlin. "Nonlinear complementary filters on 	the special orthogonal group." IEEE Transactions on automatic control 53.5 (2008): 1203-1218.
+	
+	The calibration process is refer the paper: Tedaldi, David, Alberto Pretto, and Emanuele Menegatti. "A robust and easy to 		implement method for IMU calibration without external equipments." 2014 IEEE International Conference on Robotics and Automation 	(ICRA). IEEE, 2014.
+	
+	Compariosn process refer the blog: Shike Shen: 9 Axis IMU Calibration 		[https://blog.csdn.net/shenshikexmu/article/details/80013444]
 
 
